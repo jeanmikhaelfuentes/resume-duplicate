@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #EEF7FB;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#header-name {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+#header-position {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+#header-location {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    margin-top: 20px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-nav li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+#facebook {
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+#linkedIn {
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #0A66C2;
+    background-color: #0A66C2;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.main {
+    background-color: antiquewhite;
+}
+
+.footer {
+    background-color: blue;
+}
+
+@media screen and (min-width: 600px) {
+    /* Styles for screens wider than 600px */
+
+}
+
+@media screen and (min-width: 768px) {
+    /* Styles for screens wider than 768px */
+
+}
+
+@media screen and (min-width: 1024px) {
+    /* Styles for screens wider than 1024px */
+
+}
