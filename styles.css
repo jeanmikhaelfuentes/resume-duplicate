@@ -16,8 +16,7 @@ body {
 .information {
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0 30px 25px 30px;
-    text-align: center;
-    list-style-type: none;
+    text-align: left;
 }
 
 .subcategory {
@@ -32,6 +31,7 @@ body {
     margin: 10px;
     text-align: center;
     padding: 10px 0 0 0;
+    height: 50px;
 }
 
 .date {
@@ -39,6 +39,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     margin: 0;
+    height: 30px;
 }
 
 .location {
@@ -58,7 +59,6 @@ body {
 .information-bullets {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    list-style-type: disc;
 }
 
 .information-bullets li {
@@ -68,6 +68,24 @@ body {
     font-style: italic;
 }
 
+/* EXPERIENCE SECTION */
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience-card article {
+    background-color: #EEF7FB;
+    margin: 0 20px 20px 20px;
+    padding: 10px 10px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    width: 335px;
+    height: 500px;
+}
 
 /* EDUCATION SECTION */
 
@@ -134,7 +152,7 @@ body {
     height: 50px;
 }
 
-.certification-details {
+.certificate-details {
     height: 30px;
     margin-bottom: 50px;
     color: rgb(122, 122, 122);
@@ -157,16 +175,6 @@ body {
 
 .honors-awards {
     font-weight: bold;
-}
-
-/* CARD CONTAINERS */
-
-.experience-card {
-    background-color: #EEF7FB;
-    margin: 20px;
-    padding: 10px 10px 0 10px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 /* HEADER */
@@ -235,9 +243,14 @@ a {
 /* MAIN */
 
 .main {
-    /* background-color: antiquewhite; */
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+.summary-information {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 30px 25px 30px;
     text-align: center;
 }
 
