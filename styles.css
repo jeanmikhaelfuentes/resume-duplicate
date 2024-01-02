@@ -15,7 +15,7 @@ body {
 
 .information {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 0 30px 25px 30px;
+    padding: 0 30px 0 30px;
     text-align: left;
 }
 
@@ -66,6 +66,7 @@ body {
     list-style-position: inside;
     padding-left: 5px;
     font-style: italic;
+    margin: 0 20px;
 }
 
 /* EXPERIENCE SECTION */
@@ -84,7 +85,67 @@ body {
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
     width: 335px;
-    height: 500px;
+    height: 750px;
+}
+
+.experience-bullets li {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 5px;
+    margin: 0 30px 0 30px;
+}
+
+.company-aws {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+}
+
+.company-cheko {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid darkblue;
+    border-radius: 7px;
+    color: white;
+    background-color: darkblue;
+}
+
+.company-lexmark {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: white;
+    background-color: green;
+}
+
+.company-alliance {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
 }
 
 /* EDUCATION SECTION */
